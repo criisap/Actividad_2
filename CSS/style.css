@@ -1,0 +1,140 @@
+@font-face {
+    font-family:'BreakingBad';
+    src: url(BreakingBad.ttf);
+}
+
+/* Estilos para index.html */
+#bodyIndex {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    text-align: center;
+    background-attachment:fixed
+}
+
+.h11 {
+    text-align: center;
+    font-family:'BreakingBad';
+    color: white;
+}
+.img1 img {
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    align-items: center;
+}
+
+.img2 img {
+    width: 700px;
+    height: 300px;
+    border: 10px outset brown;
+    border-radius: 22px;
+    align-items: center;
+}
+/*Estilos para Formulario.html*/
+
+#bodyForm {
+    background-image: url('../img/fondo.jpg');
+    background-size: cover;
+    text-align: left;
+    background-attachment:fixed;
+    font-family: Helvetica, Arial, sans-serif;
+}
+.h12 {
+    font-family: Helvetica, Arial, sans-serif;
+    text-align: center;
+}
+form {
+        width: 700px;
+        height: 700px;
+        font-weight: bold;
+        margin:auto;
+        font-size:15px;
+}
+fieldset {
+    height: 500px;
+}
+form ul{
+    list-style:none;
+}
+form ul li label{
+    width:180px;
+    float:left;
+    text-align:left;
+}
+form ul li [type=image] {
+    background-image: url('../img/Boton-enviar.png');
+    background-size: cover;
+    width: 60px;
+    height: 20px;
+}
+/*Estilos para Tabla.html */
+.body {
+    background-color: #0c3e11;
+    text-align: center;
+    background-attachment:fixed;
+}
+.table    {
+    border: 1px;
+    background-color: black;
+    text-align: center;
+    margin: auto;
+  }
+.cell {
+    border: 0;
+    width: 57px;
+    height: 57px;
+    padding: 0;
+    background: lightgreen;
+    font-family: Helvetica, Arial, sans-serif;
+ }
+ .cell img {
+    max-width: 56px;
+    max-height: 56px;
+ }
+.cell--Ha {
+    background-image: url('../img/Tabla%20Periódica/hankschrader.png');
+    background-size: contain;
+    background-position: center center;
+}
+.cell--tall {
+    height: 120px;
+}
+.cell--empty {
+    background-color: black;
+}
+.cell--lime {
+    background-color: rgb(146, 205, 35);
+}
+.cell--yellow {
+    background-color: rgb(197, 228, 120);
+}
+.cell--purple {
+    background-color: rgb(170, 113, 170);
+}
+.cell--white {
+    background-color: rgb(247, 247, 198)
+}
+.cell--militar {
+    background-color: #2b4f2f;
+}
+.cell--darklime {
+    background-color: #688732;
+}
+.cell--grey {
+    background-color: rgb(168, 166, 166);
+}
+.cell--lightlime {
+    background-color: rgb(208, 255, 0);
+}
+.cell--lightmilitar {
+    background-color: rgb(69, 113, 69);
+}
+.cell--mustard {
+    background-color: rgb(208, 208, 33);
+}
+.letter {
+    font-size: 14px;
+}
+.name {
+    font-size: 10px;
+}

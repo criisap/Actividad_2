@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="icon" type="icon" href="../img/icon.png" alt="Breaking Bad">
+    <title>Formulario</title>
+</head>
+
+<body id="bodyForm">
+    <div class="h12">
+        <h1>Breaking Bad - ¡Que comience el juego!</h1>
+    </div>
+    <form name="Formulario" method="post" action="mailto:raul.rodriguez@proeducaglobal.com">
+        <fieldset>
+            <legend>Formulario</legend>
+            <ul>
+                <li><label>Nombre</label><input type="text" placeholder="Escribe tu nombre" required></li>
+                <li><label>Apellidos</label><input type="text" placeholder="Escribe tus dos apellidos" required></li>
+                <li><label>Dirección postal</label><input type="text" placeholder="Calle, nº, piso"></li>
+                <li><label>Código Postal</label><input type="text" placeholder="Escribe tu Código Postal" minlength="5"></li>
+                <li><label>Municipio</label><input type="text" placeholder="Escribe tu municipio"></li>
+                <li><label>DNI o NIE</label><input type="text" placeholder="Escribe tu DNI o NIE" minlength="9"
+                        maxlength="9"></li>
+                <li><label>Correo electrónico</label><input type="email" placeholder="Email@email.es" required></li>
+                <li><label>Sexo</label><input type="radio" name="sexo" value="Mujer">Mujer
+                    <input type="radio" name="sexo" value="Hombre">Hombre
+                </li>
+                <li><label>Fecha de nacimiento</label></li> <input type="date">
+                <li><label>Elige una opción</label><select name="OpcionesBreakingBad" id="">
+                        <option value="1"></option>
+                        <option value="2">Jessie Pinkman</option>
+                        <option value="3">Walter White</option>
+                        <option value="4">Saul Goodman</option>
+                        <option value="5">Gustavo Fring</option>
+                        <option value="6">Pollos Hermanos</option>
+                        <option value="7">Otros personajes</option>
+                    </select></li>
+                <li><label>Comentarios</label><textarea name="Comentarios" id="" cols="30" rows="10"
+                        placeholder="Máximo 400 caracteres." minlength="5" maxlength="400"></textarea></li>
+                <li>Adjuntar un archivo a nuestro formulario <input type="file" value="Adjuntar archivos"></li>
+                <li><label>Limpiar formulario</label><input type="reset"></li>
+                <li><label>Enviar formulario</label><input type="image" src="../img/Boton-enviar.png"></li>
+            </ul>
+        </fieldset>
+
+
+    </form>
+</body>
+
+</html>
